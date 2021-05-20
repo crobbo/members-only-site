@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+ @import "bulma";
+
+ .center-text {
+   text-align: center;
+ }
+
+ .card {
+   border-radius: 5%;
+   padding: 20px;
+ }
