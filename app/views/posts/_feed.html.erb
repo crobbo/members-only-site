@@ -9,13 +9,13 @@
   <article class="media">
   <div class="media-content has-background-light card">
     <div class="content">
-      <p>
+      
         <% if user_signed_in? %>
-        <strong class="has-text-primary	"><%= post.user.email %></strong>
+        <strong class="has-text-primary	"><%= post.user.username %> </strong>
         <br>
         <% end %>
-        <%= post.body %>
-      </p>
+        <p class="has-text-dark body-message"> <%= post.body %></p>
+      
     </div>
   </article>
 <% end %>
